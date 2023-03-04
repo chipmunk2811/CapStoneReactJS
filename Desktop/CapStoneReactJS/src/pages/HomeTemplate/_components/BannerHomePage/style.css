@@ -1,0 +1,11 @@
+.elementor-section .elementor-container {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.elementor-column.elementor-col-50,
+.elementor-column[data-col="50"] {
+    width: 50%
+}

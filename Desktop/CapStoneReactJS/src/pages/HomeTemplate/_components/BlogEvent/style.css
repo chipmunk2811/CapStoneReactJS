@@ -1,0 +1,21 @@
+.amy-heading .entry-header .title-heading {
+    font-size: 35px;
+    font-weight: 700;
+    color: #202020;
+}
+
+.elementor-widget-Amy_Movie_Blog .entry-content {
+    text-align: center;
+    margin-left: 0px;
+}
+
+.btn-primary {
+    margin: 10px 0px;
+    background-color: #fe7900;
+    color: #007bff;
+    border: none;
+}
+
+.elementor-widget-container .entry-content {
+    display: inline-block;
+}

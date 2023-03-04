@@ -1,0 +1,78 @@
+/* Header */
+.nav-item {
+  padding: 0px 15px;
+  font-size: large;
+  font-weight: 700;
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  background: #fe7900;
+  bottom: 22px;
+  height: 3px;
+  display: block;
+  margin-left: -15%;
+  width: 130%;
+  transform: scaleX(0);
+  transition: all 0.2s ease 0s;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+.active::after {
+  transform: scaleX(1);
+}
+
+.nav-item .sub-menu {
+  background-color: #000;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  margin: 20px 0 0 0;
+  z-index: 9999;
+  border-bottom: 3px solid #fe7900;
+  top: 64px;
+  left: 0px;
+  min-width: 220px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  transition: margin 0.2s ease-in-out, opacity 0.2s ease-in-out, visibility 0.06s ease-in-out;
+}
+
+.nav-item ul:before {
+  bottom: 100%;
+  left: 20%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(0, 0, 0, 0);
+  border-bottom-color: #000;
+  border-width: 8px;
+  margin-left: -10px;
+}
+
+.amy-primary-navigation ul.nav-menu li:hover>ul {
+  opacity: 1 !important;
+  visibility: visible !important;
+  margin: 0 !important;
+}
+
+.sub-menu a {
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  font-size: 15px;
+  padding: 0 16px 0 12px;
+  line-height: 45px;
+  color: #666;
+}
+
+.sub-menu a:hover {
+  text-decoration: none;
+  outline: none;
+  color: #fe7900
+}

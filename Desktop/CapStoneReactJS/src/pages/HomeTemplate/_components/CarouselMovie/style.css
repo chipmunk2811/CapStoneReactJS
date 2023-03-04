@@ -1,0 +1,22 @@
+#amy-page-header {
+    background-image: url(http://demo.amytheme.com/movie/demo/elementor-book-tickets/wp-content/uploads/sites/12/2022/05/img_48.jpg);
+    overflow: hidden;
+    background-color: #202020;
+}
+
+#amy-page-header .amy-page-title {
+    min-height: 210px;
+    position: relative;
+}
+
+.amy-center {
+    text-align: center;
+}
+
+#amy-page-header .amy-page-title .page-title {
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+    padding: 80px 0;
+    display: inline-block;
+}

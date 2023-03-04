@@ -1,0 +1,101 @@
+.single-movie.has-banner {
+    margin-top: 30px;
+}
+
+.page-content .entry-content {
+    margin-left: 0px;
+}
+
+.page-content .entry-info .p-name {
+    padding-left: 40px;
+}
+
+
+.single-movie .entry-info ul.info-list li {
+    list-style: none;
+    display: flex;
+}
+
+.single-movie .entry-info ul.info-list li label {
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    width: 90px;
+}
+
+.amy-sidebar-clear .amy-widget {
+    margin-bottom: 30px;
+}
+
+.amy-title {
+    color: #fe7900;
+    display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 0;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.amy-widget-list.list-movie .entry-item {
+    background: #f8f8f8;
+    margin-bottom: 15px;
+    height: 159px;
+}
+
+.amy-widget-list.list-movie .entry-content {
+    margin-left: 134px;
+    padding-top: 15px;
+}
+
+.booking {
+    margin: 0px 40px;
+}
+
+.entry-info h1 a {
+    color: #000;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.single-movie .entry-showtime .showtime {
+    background: #f8f8f8;
+    float: left;
+    margin-left: 20px;
+    width: 70%;
+    padding: 40px;
+}
+
+.single-movie .entry-showtime .showtime label {
+    color: #000;
+    font-size: 14.98px;
+    font-weight: bold;
+}
+
+.single-movie .entry-showtime .showtime ul li {
+    background: #dbdbdb;
+    border-radius: 4px;
+    color: #000;
+    font-size: 14px;
+    padding: 3px 10px;
+    margin: 0 6px 9px 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.entry-poster {
+    width: 300px;
+}
+
+.entry-poster img {
+    height: 379px;
+}
+
+.entry-thumb {
+    width: 118px;
+    height: 159px;
+    overflow: hidden;
+}
+

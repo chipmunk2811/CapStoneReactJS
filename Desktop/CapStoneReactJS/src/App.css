@@ -1,0 +1,31 @@
+ul li {
+  list-style: none;
+}
+
+/* carousel */
+.amy-heading.has-seperator .entry-header {
+  display: flex;
+}
+
+.amy-heading .entry-header .title-heading .title-highlight {
+  color: #fe7900;
+}
+
+.amy-heading.has-seperator .entry-header .title-heading {
+  flex: 0 auto;
+  padding: 0 20px;
+}
+
+.amy-heading .entry-header .title-heading {
+  font-size: 35px;
+  font-weight: 700;
+  color: #202020;
+}
+
+.amy-heading.has-seperator .entry-header .seperator {
+  display: inline-block;
+  flex: 1 0;
+  background: url(../public/img/seperator-bg.png) repeat-x center;
+  position: relative;
+}
+
