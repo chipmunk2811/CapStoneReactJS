@@ -8,7 +8,7 @@ export default function BannerHomePage() {
         <div className="elementor-widget-wrap elementor-element-populated">
           <div className="elementor-element elementor-widget elementor-widget-image" data-element_type="widget" data-widget_type="image.default">
             <div className="elementor-widget-container">
-              <img alt='' width={960} height={400} src="http://demo.amytheme.com/movie/demo/elementor-book-tickets/wp-content/uploads/sites/12/2022/05/banner_1.jpg" className="attachment-large size-large" loading="lazy" srcSet="http://demo.amytheme.com/movie/demo/elementor-book-tickets/wp-content/uploads/sites/12/2022/05/banner_1.jpg 960w, http://demo.amytheme.com/movie/demo/elementor-book-tickets/wp-content/uploads/sites/12/2022/05/banner_1-300x125.jpg 300w, http://demo.amytheme.com/movie/demo/elementor-book-tickets/wp-content/uploads/sites/12/2022/05/banner_1-768x320.jpg 768w" sizes="(max-width: 960px) 100vw, 960px" />
+              <img alt='' width={960} height={400} src="./img/banner_1.jpg" />
             </div>
           </div>
         </div>
@@ -17,7 +17,7 @@ export default function BannerHomePage() {
         <div className="elementor-widget-wrap elementor-element-populated">
           <div className="elementor-element elementor-widget elementor-widget-image" data-element_type="widget" data-widget_type="image.default">
             <div className="elementor-widget-container">
-              <img width={960} height={400} alt='' src="http://demo.amytheme.com/movie/demo/elementor-book-tickets/wp-content/uploads/sites/12/2022/05/banner_2.jpg" className="attachment-large size-large" loading="lazy" srcSet="http://demo.amytheme.com/movie/demo/elementor-book-tickets/wp-content/uploads/sites/12/2022/05/banner_2.jpg 960w, http://demo.amytheme.com/movie/demo/elementor-book-tickets/wp-content/uploads/sites/12/2022/05/banner_2-300x125.jpg 300w, http://demo.amytheme.com/movie/demo/elementor-book-tickets/wp-content/uploads/sites/12/2022/05/banner_2-768x320.jpg 768w" sizes="(max-width: 960px) 100vw, 960px" />
+              <img width={960} height={400} alt='' src="./img/banner_2.jpg" />
             </div>
           </div>
         </div>

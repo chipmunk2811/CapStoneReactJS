@@ -21,12 +21,11 @@ export default function DetailMovie() {
     dispatch(actDetailMovie(params.id))
   }, [dispatch, params.id])
 
-  if (loading) return <Loader />
+
   return (
     <div>
       <Carousel />
-
-      <CardDetail data={data} />
+      {loading&&loading ? <div className='text-center'><Loader /></div> : <CardDetail data={data} />}
     </div>
   )
 }

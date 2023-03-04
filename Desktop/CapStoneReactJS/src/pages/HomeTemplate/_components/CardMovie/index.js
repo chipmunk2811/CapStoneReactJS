@@ -65,11 +65,11 @@ export default function CardMovie(props) {
                                     </div>
                                     <div className="entry-item">
                                         <div className="entry-thumb">
-                                            <img src="http://demo.amytheme.com/movie/demo/elementor-book-tickets/wp-content/uploads/sites/12/2022/05/img_18-1-118x159_c.jpg" alt="Jumanji: Welcome to the Jungle" />
+                                            <img src="https://movienew.cybersoft.edu.vn/hinhanh/civilwar_gp09.jpg" alt="Jumanji: Welcome to the Jungle" />
                                         </div>
                                         <div className="entry-content">
                                             <h2 className="entry-title">
-                                                <a href="http://demo.amytheme.com/movie/demo/elementor-book-tickets/amy_movie/jumanji-welcome-to-the-jungle/">Jumanji: Welcome to the Jungle</a>
+                                                <a href="http://demo.amytheme.com/movie/demo/elementor-book-tickets/amy_movie/jumanji-welcome-to-the-jungle/">CIVIL WAR</a>
                                             </h2>
                                             <div>
                                                 <span className="duration">

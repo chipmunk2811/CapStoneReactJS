@@ -55,7 +55,7 @@ export default function Footer() {
                                 <div className="amy-widget amy-widget-list list-post ">
                                     <h4 className="amy-title amy-widget-title">Recent News</h4>
                                     <div className="entry-item">
-                                        <div className="entry-thumb"><img alt="" src="http://demo.amytheme.com/movie/demo/elementor-book-tickets/wp-content/uploads/sites/12/2022/05/img_59-115x85_c.jpg" />
+                                        <div className="entry-thumb"><img alt="" src="./img/img_59-115x85_c.jpg" />
                                         </div>
                                         <div className="entry-content">
                                             <h2 className="entry-title"><a href="http://demo.amytheme.com/movie/demo/elementor-book-tickets/six-book-to-film-adaptations-to-get-excited-about-this-autumn/">Six
@@ -66,7 +66,7 @@ export default function Footer() {
                                         <div className="clearfix" />
                                     </div>
                                     <div className="entry-item">
-                                        <div className="entry-thumb"><img alt="" src="http://demo.amytheme.com/movie/demo/elementor-book-tickets/wp-content/uploads/sites/12/2022/05/img_58-115x85_c.jpg" />
+                                        <div className="entry-thumb"><img alt="" src="./img/img_58-115x85_c.jpg" />
                                         </div>
                                         <div className="entry-content">
                                             <h2 className="entry-title"><a href="http://demo.amytheme.com/movie/demo/elementor-book-tickets/the-beatles-eight-days-a-week-the-touring/">The

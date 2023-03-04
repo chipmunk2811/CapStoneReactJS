@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { actTopMovie } from './duck/action';
 import BannerHomePage from '../_components/BannerHomePage';
 import BlogHomePage from '../_components/BlogEvent';
-
+import Loader from '../../../components/Loader';
 const contentStyle = {
   height: '600px',
   color: '#fff',
@@ -21,7 +21,7 @@ export default function HomePage() {
     dispatch(actTopMovie())
   }, [dispatch])
   const data = useSelector((state) => state.topMovieReducer.data);
-  
+  const loading = useSelector((state) => state.topMovieReducer.loading);
   const renderTopMovie = () => {
     return data?.map((movie) => {
       return < div key={movie.maPhim} >
@@ -41,9 +41,10 @@ export default function HomePage() {
         </div>
       </div>
 
-      <Carousel autoplay>
+      {loading&&loading ? <div className='text-center'> <Loader /></div> : <Carousel autoplay>
         {renderTopMovie()}
-      </Carousel>
+      </Carousel>}
+
       <BannerHomePage />
       <BlogHomePage />
     </div>

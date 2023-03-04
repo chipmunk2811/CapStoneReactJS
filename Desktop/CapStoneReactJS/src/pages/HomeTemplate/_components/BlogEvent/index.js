@@ -11,11 +11,11 @@ export default function BlogHomePage() {
             <div className="elementor-element elementor-widget elementor-widget-Amy_Movie_Blog" data-element_type="widget" data-widget_type="Amy_Movie_Blog.default">
                 <div className="elementor-widget-container">
                     <div className="amy-shortcode amy-mv-blog layout1 ">
-                        <div className="row px-5">
+                        <div className="row mx-5">
                             <div className="col-md-3 wide">
                                 <div className="entry-item">
                                     <div className="entry-thumb">
-                                        <img loading="lazy" width={750} height={500} src="http://demo.amytheme.com/movie/demo/elementor-book-tickets/wp-content/uploads/sites/12/2022/05/img_59.jpg" className="attachment-full size-full wp-post-image" alt=''sizes="(max-width: 750px) 100vw, 750px" />
+                                        <img loading="lazy" width={750} height={500} src="./img/img_59.jpg" className="attachment-full size-full wp-post-image" alt=''sizes="(max-width: 750px) 100vw, 750px" />
                                     </div>
                                     <div className="entry-content">
                                         <h2 className="entry-title">
@@ -26,7 +26,7 @@ export default function BlogHomePage() {
                                     <div className="clearfix" />
                                 </div>
                                 <div className="entry-item">
-                                    <div className="entry-thumb"><img width={750} height={500} src="http://demo.amytheme.com/movie/demo/elementor-book-tickets/wp-content/uploads/sites/12/2022/05/img_58.jpg" className="attachment-full size-full wp-post-image" alt='' loading="lazy" sizes="(max-width: 750px) 100vw, 750px" /></div>
+                                    <div className="entry-thumb"><img width={750} height={500} src="./img/img_58.jpg" className="attachment-full size-full wp-post-image" alt='' loading="lazy" sizes="(max-width: 750px) 100vw, 750px" /></div>
                                     <div className="entry-content">
                                         <h2 className="entry-title">The
                                             Beatles: Eight Days a Week – The Touring</h2>
@@ -37,7 +37,7 @@ export default function BlogHomePage() {
                             </div>
                             <div className="col-md-6 full">
                                 <div className="entry-item">
-                                    <div className="entry-thumb"><img width={750} height={500} src="http://demo.amytheme.com/movie/demo/elementor-book-tickets/wp-content/uploads/sites/12/2022/05/img_57.jpg" className="attachment-full size-full wp-post-image" alt='' loading="lazy" sizes="(max-width: 750px) 100vw, 750px" /></div>
+                                    <div className="entry-thumb"><img width={750} height={500} src="./img/img_57.jpg" className="attachment-full size-full wp-post-image" alt='' loading="lazy" sizes="(max-width: 750px) 100vw, 750px" /></div>
                                     <div className="entry-content">
                                         <h2 className="entry-title">Win
                                             a Wizarding World holiday with Fantastic</h2>
@@ -54,7 +54,7 @@ export default function BlogHomePage() {
                             </div>
                             <div className="col-md-3 wide">
                                 <div className="entry-item">
-                                    <div className="entry-thumb"><img width={750} height={500} src="http://demo.amytheme.com/movie/demo/elementor-book-tickets/wp-content/uploads/sites/12/2022/05/img_56.jpg" className="attachment-full size-full wp-post-image" alt='' loading="lazy" sizes="(max-width: 750px) 100vw, 750px" /></div>
+                                    <div className="entry-thumb"><img width={750} height={500} src="./img/img_56.jpg" className="attachment-full size-full wp-post-image" alt='' loading="lazy" sizes="(max-width: 750px) 100vw, 750px" /></div>
                                     <div className="entry-content">
                                         <h2 className="entry-title">Doctor
                                             Strange assembles with the Avengers</h2>
@@ -63,7 +63,7 @@ export default function BlogHomePage() {
                                     <div className="clearfix" />
                                 </div>
                                 <div className="entry-item">
-                                    <div className="entry-thumb"><img width={750} height={500} src="http://demo.amytheme.com/movie/demo/elementor-book-tickets/wp-content/uploads/sites/12/2022/05/img_54.jpg" className="attachment-full size-full wp-post-image" alt='' loading="lazy" sizes="(max-width: 750px) 100vw, 750px" /></div>
+                                    <div className="entry-thumb"><img width={750} height={500} src="./img/img_54.jpg" className="attachment-full size-full wp-post-image" alt='' loading="lazy" sizes="(max-width: 750px) 100vw, 750px" /></div>
                                     <div className="entry-content">
                                         <h2 className="entry-title">5
                                             movies to watch this week (29 Sep 2016)</h2>

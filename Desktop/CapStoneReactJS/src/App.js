@@ -27,6 +27,7 @@ function App() {
 
           {/* HomeTemplate */}
           <Route path='' element={<HomeTemplate />}>
+            <Route index element={<HomePage />} />
             <Route path='home' element={<HomePage />} />
             <Route path='now-playing' element={<NowPlaying />} />
             <Route path='coming-soon' element={<CommingSoon />} />
