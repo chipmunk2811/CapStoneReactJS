@@ -33,3 +33,7 @@ ul li {
   background: url(../public/img/seperator-bg.png) repeat-x center;
   position: relative;
 }
+
+.info-list{
+  padding-left:40px
+}
