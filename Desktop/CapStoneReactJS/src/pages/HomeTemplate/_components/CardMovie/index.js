@@ -21,7 +21,7 @@ export default function CardMovie(props) {
                         <aside id="sidebar">
                             <div className="amy-widget widget_block widget_media_image">
                                 <figure className="wp-block-image size-full">
-                                    <img loading="lazy" width={350} height={272} src="http://demo.amytheme.com/movie/demo/elementor-book-tickets/wp-content/uploads/sites/12/2022/05/img_62.png" alt='' />
+                                    <img loading="lazy" width={350} height={272} src="../img/img_62.png" alt='' />
                                 </figure>
 
                                 <div className="clear" /></div>
